@@ -1,0 +1,62 @@
+Starting Dynare (version 5.5-arm64).
+Calling Dynare with arguments: none
+Starting preprocessing of the model file ...
+Found 30 equation(s).
+Evaluating expressions...done
+Computing static model derivatives (order 1).
+Computing dynamic model derivatives (order 2).
+Processing outputs ...
+done
+Preprocessing completed.
+
+
+You did not declare endogenous variables after the estimation/calib_smoother command.
+The posterior mode file sw_euro_mode has been generated using an older version of Dynare. It cannot be verified if it matches the present model. Proceed at your own risk.
+
+Initial value of the log posterior (or likelihood): -201.4643
+
+RESULTS FROM POSTERIOR ESTIMATION
+parameters
+          prior mean     mode    s.d.  prior pstdev
+
+rho_a         0.8500   0.8073  0.0618   beta 0.1000 
+rho_pb        0.8500   0.9063  0.0858   beta 0.1000 
+rho_b         0.8500   0.8820  0.0341   beta 0.1000 
+rho_g         0.8500   0.9462  0.0295   beta 0.1000 
+rho_l         0.8500   0.8669  0.0670   beta 0.1000 
+rho_i         0.8500   0.9557  0.0245   beta 0.1000 
+phi_i         4.0000   6.6123  1.1140   norm 1.5000 
+sig_c         1.0000   1.3567  0.2770   norm 0.3750 
+hab           0.7000   0.5554  0.0696   beta 0.1000 
+xi_w          0.7500   0.7526  0.0516   beta 0.0500 
+sig_l         2.0000   2.0651  0.6052   norm 0.7500 
+xi_p          0.7500   0.9091  0.0112   beta 0.0500 
+xi_e          0.5000   0.6021  0.0467   beta 0.1500 
+gamma_w       0.7500   0.7517  0.1921   beta 0.1500 
+gamma_p       0.7500   0.4174  0.1024   beta 0.1500 
+czcap         0.2000   0.1770  0.0773   norm 0.0750 
+phi_y         1.4500   1.4362  0.1130   norm 0.1250 
+r_pie         1.7000   1.6999  0.1022   norm 0.1000 
+r_dpi         0.3000   0.1008  0.0525   norm 0.1000 
+rho           0.8000   0.9745  0.0140   beta 0.1000 
+r_y           0.1250   0.1255  0.0462   norm 0.0500 
+r_dy          0.0625   0.1417  0.0315   norm 0.0500 
+
+standard deviation of shocks
+          prior mean     mode    s.d.  prior pstdev
+
+E_A           0.4000   0.6058  0.1058   invg 2.0000 
+E_PIE_BAR     0.0200   0.0092  0.0041   invg 10.0000 
+E_B           0.2000   0.2663  0.0791   invg 2.0000 
+E_G           0.3000   0.3225  0.0222   invg 2.0000 
+E_L           1.0000   3.9396  1.4617   invg 2.0000 
+E_I           0.1000   0.0634  0.0185   invg 2.0000 
+ETA_R         0.1000   0.0601  0.0291   invg 2.0000 
+ETA_Q         0.4000   0.5990  0.0648   invg 2.0000 
+ETA_P         0.1500   0.1577  0.0158   invg 2.0000 
+ETA_W         0.2500   0.2866  0.0268   invg 2.0000 
+
+
+Log data density [Laplace approximation] is -270.015775.
+
+Total computing time : 0h00m08s
